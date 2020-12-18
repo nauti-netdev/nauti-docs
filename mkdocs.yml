@@ -8,9 +8,20 @@ theme:
     accent: light green
   icon:
     repo: fontawesome/brands/github
+markdown_extensions:
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
 extra:
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/nwkautomaniac
     - icon: fontawesome/brands/github
       link: https://github.com/nauti-netdev
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Installation: installation.md
+  - Sources:
+    - nauti-ipfabric: sources/nauti-ipfabric.md
+    - nauti-netbox: sources/nauti-netbox.md
+    - nauti-clearpass: sources/nauti-clearpass.md
