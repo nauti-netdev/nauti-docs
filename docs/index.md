@@ -1,6 +1,12 @@
+{% block announce %}
+  <h1>asdsa</h1>
+{% endblock %}
+
 # Welcome to NAUTI
 
 NAUTI or Network Automation Tools Integrator is an ecosystem of libraries that together can be used to support various network automation workflows.
+
+
 
 ## Commands
 
