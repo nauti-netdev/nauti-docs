@@ -1,3 +1,1 @@
 # nauti-docs
-
-## test
