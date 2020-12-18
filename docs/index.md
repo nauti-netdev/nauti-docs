@@ -1,19 +1,18 @@
 # Welcome to NAUTI
 
-NAUTI or Network Automation Tools Integrator is an ecosystem of libraries that together can be used to support various network automation workflows.
+NAUTI (Network Automation Tools Integrator) is a CLI application that leverages an ecosystem of libraries built around asyncio that together can be used to support various network automation workflows.
 
+The key features are:
 
+- **Compare**: The ability to compare network automation tools
+- **Reconcile**: NAUTI can be used to reconcile information between network automation tools
+- **Diffs**: Show differences between network automation tools
 
-## Commands
+## Quick Overview
+Show potential of NAUTI
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Requirements
+Python 3.8+
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## License
+This project is lincensed under the terms of the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
