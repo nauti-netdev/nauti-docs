@@ -1,3 +1,16 @@
 site_name: NAUTI
+repo_name: nauti-netdev
+repo_url: https://github.com/nauti-netdev
 theme:
   name: material
+  palette:
+    primary: cyan
+    accent: light green
+  icon:
+    repo: fontawesome/brands/github
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/nwkautomaniac
+    - icon: fontawesome/brands/github
+      link: https://github.com/nauti-netdev
