@@ -9,6 +9,7 @@ Aruba ClearPass is a policy management platform that allows for network access c
 | devices | :material-check: | :material-close: | :material-close: | :material-close: |
 
 ## Configuration
+
 As mentioned within [Architecture](../architecture.md) the `nauti-clearpass` package requires a configuration file to function correctly. Environment variables can be used to hide credentials.
 
 ```toml

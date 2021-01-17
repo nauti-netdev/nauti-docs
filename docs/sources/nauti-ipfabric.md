@@ -15,6 +15,7 @@ IPFabric helps companies discover, verify, visualize and document large scale ne
 | sites | :material-check: | :material-close: | :material-close: | :material-close: |
 
 ## Configuration
+
 As mentioned within [Architecture](../architecture.md) the `nauti-ipfabric` package requires a configuration file to function correctly. Environment variables can be used to hide credentials.
 
 ```toml
@@ -37,6 +38,12 @@ As mentioned within [Architecture](../architecture.md) the `nauti-ipfabric` pack
     "Te" = "TenGigabitEthernet"
     "Vx" = "VxLan"
 ```
+
+## Filtering
+
+`nauti-ipfabric` supports API filtering using a simple filter language within the [aio-ipfabric](https://github.com/jeremyschulman/aio-ipfabric) library.
+
+This can be used to filter on IPFabric columns such as `hostname ~ b15` which will filter out devices containing `b15`. For more information check out the [aio-ipfabric filter documentation](https://github.com/jeremyschulman/aio-ipfabric/blob/main/docs/filtering.md)
 
 ---
 

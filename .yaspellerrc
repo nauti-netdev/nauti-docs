@@ -32,7 +32,12 @@
     "entrypoint",
     "portchan",
     "os",
-    "Et"
+    "Et",
+    "aio",
+    "TOML",
+    "asyncio",
+    "Diffs",
+    "v3"
   ],
   "ignoreUrls": true
 }

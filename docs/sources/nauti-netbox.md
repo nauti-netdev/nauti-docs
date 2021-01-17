@@ -15,6 +15,7 @@ NetBox is an IP address management (IPAM) and data center infrastructure managem
 | sites | :material-check: | :material-check: | :material-close: | :material-close: |
 
 ## Configuration
+
 As mentioned within [Architecture](../architecture.md) the `nauti-netbox` package requires a configuration file to function correctly. Environment variables can be used to hide credentials.
 
 ```toml
@@ -23,6 +24,10 @@ As mentioned within [Architecture](../architecture.md) the `nauti-netbox` packag
     credentials.token = "$NETBOX_TOKEN"
     options.timeout = 60
 ```
+
+## Filtering
+
+`nauti-netbox` supports API filtering using the Netbox Rest API filtering technique. Information regarding the filters can be found within the [Netbox documentation](https://netbox.readthedocs.io/en/stable/rest-api/filtering/).
 
 ---
 
