@@ -1,0 +1,38 @@
+{
+  "excludeFiles": [
+      ".yaspellerrc",
+      "mkdocs.yml",
+      ".pre-commit-config.yaml"
+  ],
+  "lang": "en",
+  "fileExtensions": [
+    ".md"
+  ],
+  "dictionary": [
+    "ipaddrs",
+    "ipaddr",
+    "(H|h)ostname",
+    "PortChannel",
+    "netdev",
+    "NAUTI",
+    "nauti",
+    "(I|i)(P|p)(F|f)abric",
+    "portchans",
+    "(C|c)lear(P|p)ass",
+    "(N|n)et(B|b)ox",
+    "(A|a)ruba",
+    "IPFabrics",
+    "CLI",
+    "payload",
+    "junos",
+    "IPAM",
+    "DCIM",
+    "sn",
+    "vars",
+    "entrypoint",
+    "portchan",
+    "os",
+    "Et"
+  ],
+  "ignoreUrls": true
+}

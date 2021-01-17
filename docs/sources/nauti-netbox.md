@@ -13,3 +13,19 @@ NetBox is an IP address management (IPAM) and data center infrastructure managem
 | ipaddrs | :material-check: | :material-check: | :material-close: | :material-close: |
 | portchans | :material-check: | :material-check: | :material-check: | :material-check: |
 | sites | :material-check: | :material-check: | :material-close: | :material-close: |
+
+## Configuration
+As mentioned within [Architecture](../architecture.md) the `nauti-netbox` package requires a configuration file to function correctly. Environment variables can be used to hide credentials.
+
+```toml
+[netbox.default]
+    url = "$NETBOX_ADDR"
+    credentials.token = "$NETBOX_TOKEN"
+    options.timeout = 60
+```
+
+---
+
+**Source Code**: <a href="https://github.com/nauti-netdev/nauti-netbox" target="_blank">https://github.com/nauti-netdev/nauti-netbox</a>
+
+---

@@ -6,10 +6,10 @@ NAUTI has three key components.
 - NAUTI Collections
 
 ### NAUTI Core
-NAUTI Core is the core library which glues all of the other components together. The library contains the core functionaility such as the CLI entrypoint and collection models.
+NAUTI Core is the core library which glues all of the other components together. The library contains the core functionality such as the CLI entrypoint and collection models.
 
 ### NAUTI Sources
-NAUTI Sources define the Network Automation Tools in which NAUTI will use for gathering and reconsiling information between systems. An example of a NAUTI Source could be [IPFabric](https://ipfabric.io), [NetBox](https://github.com/netbox-community/netbox) and many more.
+NAUTI Sources define the Network Automation Tools in which NAUTI will use for gathering and reconciling information between systems. An example of a NAUTI Source could be [IPFabric](https://ipfabric.io), [NetBox](https://github.com/netbox-community/netbox) and many more.
 
 Currently Implemented:
 
@@ -30,6 +30,14 @@ NAUTI Sources require a configuration file. The configuration is typically `<nau
 | maps | Maps one value to another value |
 
 > Note: default `url` and `credentials` accepts environment variables to prevent storing sensitive information within plain text files.
+
+`url`, `credentials` and `vars` supports using environment variables within the configuration:
+
+```toml
+[netbox.default]
+    url = "$NETBOX_ADDR"
+    credentials.token = "$NETBOX_TOKEN"
+```
 
 ### NAUTI Collections
 NAUTI Collections are components of a network that are similar between different tools. For example a collection can be defined as a Device, Interface, PortChannel, Site and more. Each collection type is modeled within NAUTI Core.

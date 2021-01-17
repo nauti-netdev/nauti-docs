@@ -28,3 +28,5 @@ nav:
     - nauti-ipfabric: sources/nauti-ipfabric.md
     - nauti-netbox: sources/nauti-netbox.md
     - nauti-clearpass: sources/nauti-clearpass.md
+  - Advanced:
+    - Custom Filters: advanced/filters.md
