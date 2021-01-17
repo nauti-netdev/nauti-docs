@@ -2,6 +2,7 @@
 Installing NAUTI requires the installation of NAUTI Core and required NAUTI Sources.
 
 ## With pip
+
 ```bash
 $ pip install git+https://github.com/nauti-netdev/nauti
 $ pip install git+https://github.com/nauti-netdev/nauti-ipfabric
@@ -9,6 +10,7 @@ $ pip install git+https://github.com/nauti-netdev/nauti-netbox
 ```
 
 ## Configuration
+
 NAUTI requires configuration file defined in TOML.
 
 ###Parameters
