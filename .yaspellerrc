@@ -2,7 +2,8 @@
   "excludeFiles": [
       ".yaspellerrc",
       "mkdocs.yml",
-      ".pre-commit-config.yaml"
+      ".pre-commit-config.yaml",
+      ".github/workflows/publish.yml"
   ],
   "lang": "en",
   "fileExtensions": [
