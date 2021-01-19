@@ -30,3 +30,4 @@ nav:
     - nauti-clearpass: sources/nauti-clearpass.md
   - Advanced:
     - Custom Filters: advanced/filters.md
+  - Contributing: contributing.md

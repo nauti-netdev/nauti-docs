@@ -38,7 +38,10 @@
     "TOML",
     "asyncio",
     "Diffs",
-    "v3"
+    "v3",
+    "Repo",
+    "github",
+    "io"
   ],
   "ignoreUrls": true
 }
