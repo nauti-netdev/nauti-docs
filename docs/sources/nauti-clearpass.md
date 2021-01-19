@@ -22,6 +22,7 @@ As mentioned within [Architecture](../architecture.md) the `nauti-clearpass` pac
 [clearpass.vars]
     tacacs_secret = "$TACACS_SECRET"
 ```
+
 ---
 
 **Source Code**: <a href="https://github.com/nauti-netdev/nauti-clearpass" target="_blank">https://github.com/nauti-netdev/nauti-clearpass</a>
