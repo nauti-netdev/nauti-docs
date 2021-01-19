@@ -20,11 +20,4 @@ The key features include:
 
 ## Contributing
 
-```
-$ git clone https://github.com/nauti-netdev/nauti-docs.git
-$ cd nauti-docs
-$ python3.8 -m venv venv
-$ source venv/bin/activate
-$ pip install -r requirements-develop.text
-$ mkdocs serve
-```
+To contribute please check out the [contribution documentation](https://nauti-netdev.github.io/nauti-docs/contributing/).
