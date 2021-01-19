@@ -2,7 +2,7 @@
 
 NAUTI (Network Automation Tools Integrator) is a CLI application that leverages an ecosystem of libraries built around asyncio that together can be used to support various network automation workflows.
 
-The key features are:
+The key features include:
 
 - **Compare**: The ability to compare network automation tools
 - **Reconcile**: NAUTI can be used to reconcile information between network automation tools
