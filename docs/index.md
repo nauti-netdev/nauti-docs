@@ -10,7 +10,7 @@ The key features include:
 
 ## Quick Overview
 
-Within this quick example the CLI can be used to sync devices from [IPFabric](https://ipfabric) (Network Discovery Tool) to [Netbox](https://github.com/net) (Network DCIM/IPAM).
+Within this quick example the CLI can be used to sync devices from [IPFabric](https://ipfabric.io/) (Network Discovery Tool) to [Netbox](https://github.com/netbox-community/netbox) (Network DCIM/IPAM).
 
 The following command checks if there are any differences between the origin and target filtering out only one device. By default the command line `nauti sync` will run in `dry-run` mode.
 ```bash
